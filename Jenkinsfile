@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("SCM Checkout"){
             steps{
-            git 'https://github.com/diwakarsharma4/devops-as2-task1.git'
+            git 'https://github.com/diwakarsharma4/devops-as2-task1kijdoi.git'
             }
         }
         stage("Maven Build"){
